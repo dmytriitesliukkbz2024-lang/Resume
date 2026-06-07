@@ -1,0 +1,20 @@
+@import "tailwindcss";
+/* Додаткові стилі для темного режиму */
+.dark-theme-text h1, 
+.dark-theme-text h2, 
+.dark-theme-text h3, 
+.dark-theme-text h4, 
+.dark-theme-text strong {
+  color: #f1f5f9 !important;
+}
+
+.dark-theme-text div, 
+.dark-theme-text p {
+  color: #cbd5e1 !important;
+}
+
+.dark-theme-text .bg-slate-50, 
+.dark-theme-text .bg-slate-50\/80 {
+  background-color: #1e293b !important;
+  border-color: #334155 !important;
+}
